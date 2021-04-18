@@ -78,6 +78,17 @@ function App() {
         </div>
       </MaxWidthWrapper>
 
+      <div
+        style={{
+          background: 'hsl(195deg, 20%, 86%)',
+          height: '100%',
+          width: '100%',
+          position: 'fixed',
+          top: '60%',
+          zIndex: '-1'
+        }}
+      />
+
       <div className={styles.characterWrapper}>
         <Character
           body={body}
